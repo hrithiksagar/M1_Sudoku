@@ -1,0 +1,26 @@
+Links for mini project:
+1. https://github.com/prithvisekhar/AppliedSDLC_Template -- create a repo with project name of my own, m1_<project name> inside it create 5 to 6 different folders for certificates "0_Certificates"
+
+2. https://github.com/stepin654321/MiniProject_Template --  Important
+link to these folder structure
+
+- select an idea for project
+- it should be C language
+- input output based application
+- - applications are utility like: examples of projects
+    - calci/scientific calculator : integration-determination
+    - Data structure based mechanism , trees or linked list
+    - any of the challenges that we faced
+    - enter ctc and find percentage of amount of tax for every country with detailed explanation
+    - application to import data form excel sheet and do something with it
+    - games (hangman,tic tok, chess...etc)
+    - electronics projects like e-learning book where they are many c programs explained and compilation explained.
+
+keep all these documents on github public repo
+- do not delete it for any reason.
+- do not use any of the bots in github as it will lead to blocking of repo
+- use github workflows for analysis before and after compilation
+- use github - Wiki
+
+
+HackerEarth Website link: https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/tutorial/ looking for 1000 points
