@@ -9,4 +9,4 @@
 
 
 * Codiga:
-* [Codiga Badge](https://api.codiga.io/project/32088/score/svg)
+* [![Codiga Badge](https://api.codiga.io/project/32088/score/svg)
