@@ -9,10 +9,13 @@ Tasks to be done: (all these certificates are located in [0_Certificates](https:
 5. Installation of software: https://github.com/stepin654321/MiniProject_Template/wiki#software-tools-for-c-programming
 6. HackerEarth, Basics of Programming, Score screen shot. (PS. Criteria to qualify, score = 1000)
 
-<h3> for the 5th part, 5. Installation of software, this is done in the repository: https://github.com/hrithiksagar/C-Language-Software-STEPIN 
+<h3> for the 5th part, 5. Installation of software, this is done in [this repository](https://github.com/hrithiksagar/C-Language-Software-STEPIN)
  <br> Rest other certificates are available in 0_Certificates Folder
-  
 
+ 
+<h1> Mini Project</h1>
+Project that i have choosen is SUDOKU Game which is very popular helps mind to stay active. 
+for implimenting i have taken help and reference of author "P Pradeep Mondal", From [ geeksforgeeks ](https://www.geeksforgeeks.org/sudoku-backtracking-7/)
 # Badges:
  
 * Codacy : [![Codacy Badge](https://app.codacy.com/project/badge/Grade/274967bb369c446893ea223bdae965fa)](https://www.codacy.com/gh/hrithiksagar/M1_Sudoku/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=hrithiksagar/M1_Sudoku&amp;utm_campaign=Badge_Grade)
