@@ -77,8 +77,7 @@ void sub(int i, int j, int bit)
   board[k][m].left &= ~bit; 
 }
  
-void init()
-{
+void init(){
  int i, j; 
  
  for(i=0; i<SIZE; i++)
@@ -89,8 +88,7 @@ void init()
   sub(i, j, 1<<(board[i][j].try-1));
 }
  
-void add(int i, int j, int bit)
-{
+void add(int i, int j, int bit){
  int k, m;
  
  for(k=0; k<SIZE; k++)
@@ -103,8 +101,7 @@ void add(int i, int j, int bit)
   board[k][m].left |= bit;
 }
  
-void solve(int pos)
-{
+void solve(int pos){
  int i=pos/SIZE; 
  int j=pos%SIZE; 
  int bit, left;
