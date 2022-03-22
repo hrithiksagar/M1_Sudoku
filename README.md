@@ -26,7 +26,16 @@ for implimenting i have taken help and reference of author "P Pradeep Mondal", F
 5. Each horizontal row can only contain each number from 1 to 9 once
 <br><b>Target</b>: Is to fill the missing blocks with correct number passing all the rules.
 
- 
+#Folder Structure and understanding of the ecosystem:
+## Folders
+The repository is divided into 7 folders:-
+1. Requirements - All the info about project requirements.
+2. Design - All the UML Diagrams
+3. Implementation - Source code and Header files
+4. Test Plan - The test plan for the code.
+5. Report - Report file for the project
+6. Images and Videos - Images and videos of the project
+7. Others - Other files and folders. It contains the cppcheck file for this file, Static Analysis.
  
  
 
