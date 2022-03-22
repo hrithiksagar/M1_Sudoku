@@ -29,13 +29,13 @@ for implimenting i have taken help and reference of author "P Pradeep Mondal", F
 #Folder Structure and understanding of the ecosystem:
 ## Folders
 The repository is divided into 7 folders:-
-1. Requirements - All the info about project requirements.
-2. Design - All the UML Diagrams
-3. Implementation - Source code and Header files
-4. Test Plan - The test plan for the code.
-5. Report - Report file for the project
-6. Images and Videos - Images and videos of the project
-7. Others - Other files and folders. It contains the cppcheck file for this file, Static Analysis.
+1. <b>1_Requirements</b> - All the info about project requirements.
+2. <b>2_Design</b> - All the UML Diagrams
+3. <b>3_Implementation</b> - Source code and Header files
+4. <b>4_TestPlanandOutput</b> - The test plan for the code.
+5.<b> 5_Report</b> - Report file for the project
+6. <b>6_ImagesandVideos</b> - Images and videos of the project
+7. <b>7_Other </b> - Other files and folders. It contains the cppcheck file for this file, Static Analysis.
  
  
 
