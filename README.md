@@ -8,6 +8,7 @@ Tasks to be done:
 3. Getting started with git: https://www.simplilearn.com/learn-git-basics-skillup
 4. First day on Github: https://lab.github.com/githubtraining/first-day-on-github
 5. Installation of software: https://github.com/stepin654321/MiniProject_Template/wiki#software-tools-for-c-programming
+6. HackerEarth, Basics of Programming, Score screen shot. (PS. Criteria to qualify, score = 1000)
 
 <h3> for the 5th part, 5. Installation of software, this is done in the repository: https://github.com/hrithiksagar/C-Language-Software-STEPIN 
  <br> Rest other certifictaes are available in Courses Folder
