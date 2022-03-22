@@ -1,4 +1,3 @@
-
 PROJ_NAME = Sudoku
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
