@@ -16,9 +16,24 @@ Tasks to be done: (all these certificates are located in [0_Certificates](https:
 <h1> Mini Project</h1>
 Project that i have choosen is SUDOKU Game which is very popular helps mind to stay active. 
 for implimenting i have taken help and reference of author "P Pradeep Mondal", From [ geeksforgeeks ](https://www.geeksforgeeks.org/sudoku-backtracking-7/)
+ <br>
+ A little about Sudoku: This is a puzzle game. It consists of numbers from 1 to 9 in 9 boxes each consisting of 9 numbers and all these are accumilated in a grid, where there will be some misisng numbers. Task is to fill the missing numbers with a right number, here plays the main Logic.
+<br> Rules: <br>
+1. Every square has to contain a single number <br>
+2. Only the numbers from 1 through to 9 can be used<br>
+3. Each 3×3 box can only contain each number from 1 to 9 once<br>
+4. Each vertical column can only contain each number from 1 to 9 once<br>
+5. Each horizontal row can only contain each number from 1 to 9 once
+<br><b>Target</b>: Is to fill the missing blocks with correct number passing all the rules.
+
  
-<br>
-# <h2> Badges: </h2>
+ 
+ 
+
+
+ 
+<br> 
+<h2> Badges: </h2>
  
 * Codacy : [![Codacy Badge](https://app.codacy.com/project/badge/Grade/274967bb369c446893ea223bdae965fa)](https://www.codacy.com/gh/hrithiksagar/M1_Sudoku/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=hrithiksagar/M1_Sudoku&amp;utm_campaign=Badge_Grade)
 
