@@ -1,8 +1,7 @@
 # LTTI-StepIn-Course
-This Repository contains all the certificates required by Stepin program
+<h1> This Repository contains all the certificates required by Stepin program and the mini project implimentation along with unit testing and code quality analysis. <br></h1>
 
-Tasks to be done:
-
+Tasks to be done: (all these certificates are located in [0_Certificates](https://github.com/hrithiksagar/M1_Sudoku/tree/main/0_Certificates)) <br>
 1. Basics of C Programming Certificate: https://www.sololearn.com/learning/1089
 2. Basics of Working on Linux OS and command line Interface:https://www.netacad.com/courses/os-it/ndg-linux-unhatched
 3. Getting started with git: https://www.simplilearn.com/learn-git-basics-skillup
@@ -11,7 +10,7 @@ Tasks to be done:
 6. HackerEarth, Basics of Programming, Score screen shot. (PS. Criteria to qualify, score = 1000)
 
 <h3> for the 5th part, 5. Installation of software, this is done in the repository: https://github.com/hrithiksagar/C-Language-Software-STEPIN 
- <br> Rest other certifictaes are available in Courses Folder
+ <br> Rest other certifictaes are available in [0_Certificates](https://github.com/hrithiksagar/M1_Sudoku/tree/main/0_Certificates)) Folder
   
 
 # Badges:
