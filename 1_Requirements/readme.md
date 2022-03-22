@@ -21,3 +21,43 @@
 <br>
 # SWOT Analysis:
 
+# W and H Questions:
+<h2> Who: </h2> 
+* This is a very basic game, who ever knows numbers and has little idea of how to play it can play this game.
+
+<br>
+<h2> What:</h2>
+* Sudoku is a puzzle game that requires players (Humans) to think strategically and solve problems creatively.
+<br>
+<h2> When: </h2>
+* This can be played anytime using laptop, linux, mac in terminal. 
+<br>
+<h2> where: </h2>
+I have developed this in my mac, IDE: Visual Studio Code of Microsoft. 
+<br>
+<h2> How:</h2>
+* This is build using programming language, C.
+* This can take Input from user and output the solution.
+
+
+<br>
+<br>
+
+# Detail Requirements
+
+## High-Level Requirements
+|ID| Description | Status
+|--|--|--|
+| HL1 | Contain sample and take User Sudoku | Implemented
+| HL2 | Print the solution if exist | Implemented
+
+## Low-Level Requirements
+|ID| Description | Status
+|--|--|--|
+| LL1 | Sample and User sudoku in main() |Implemented
+| LL2 | Call to solveSudoku() | Implemented
+| LL3 | Check sudoku using safeSudoku() before solving | Implemented
+| LL4 | solveSudoku() self call to fill the empty spaces | Implemented
+| LL5 | Then print the solution, if exist | Implemented
+
+
