@@ -1,8 +1,7 @@
-
 #include<stdio.h>
 #include "sudoku.h"
 
-int printSudoku(int arr[N][N])
+int printSudoku(int arr[9][9])
 {
      for (int i = 0; i < 9; i++)
       {

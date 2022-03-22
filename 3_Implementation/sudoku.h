@@ -1,11 +1,9 @@
-//* @brief Header file for sudoku pr
 
 #ifndef __SUDOKU_H__
 #define __SUDOKU_H__
 
 /**
  * @brief Function to print Sudoku
- * 
  * @param arr Sudoku Grid Passed
  */
 
@@ -23,7 +21,6 @@ int safeSudoku(int arr[9][9], int row, int col, int num);
 
 /**
  * @brief Function to solve Sudoku
- * 
  * @param arr Sudoku Grid
  * @param row Row of sudoku
  * @param col Column of sudoku

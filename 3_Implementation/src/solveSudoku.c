@@ -1,30 +1,50 @@
+/**
+ * @file solveSudoku.c
+ * @author Roopesh Verma
+ * @brief Function to solve the sudoku
+ * @version 0.1
+ * @date 2021-04-11
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
 #include<stdio.h>
 #include"sudoku.h"
 
 
-
-int solveSudoku(int grid[N][N], int row, int col)
+/* Takes a partially filled-in grid and attempts
+to assign values to all unassigned locations in
+such a way to meet the requirements for
+Sudoku solution (non-duplication across rows,
+columns, and boxes) */
+int solveSudoku(int arr[9][9],int row, int col)
 {
-     
-    if (row == N - 1 && col == N)
+    if (row == 8 && col == 9)
+    {
         return 1;
-    if (col == N)
+    }
+    if (col == 9)
     {
         row++;
         col = 0;
     }
-    if (grid[row][col] > 0)
-        return solveSudoku(grid, row, col + 1);
-    
-    for (int num = 1; num <= N; num++)
+    if (arr[row][col] > 0)
     {
-        if (isSafe(grid, row, col, num)==1)
+        return solveSudoku(arr, row, col + 1);
+    }
+    for (int num = 1; num <= 9; num++) 
+    {         
+        if (safeSudoku(arr, row, col, num)==1)
         {
-            grid[row][col] = num;
-            if (solveSudoku(grid, row, col + 1)==1)
+            arr[row][col] = num;
+            if (solveSudoku(arr, row, col + 1)==1)
+            {
                 return 1;
+            }
         }
-        grid[row][col] = 0;
+        arr[row][col] = 0;
     }
     return 0;
 }
+ 
