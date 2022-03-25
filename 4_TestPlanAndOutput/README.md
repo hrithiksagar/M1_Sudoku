@@ -9,3 +9,12 @@
 | LT 1 |  The working of the components is taken as the input| The components required for the project is tested for the further process | Pass | Requirement Based 
 | LT 2 | The inputs of the components is given to the system  | Overall system is tested and then it is approved for the next process| Fail | Boundary Based 
 | LT 3 |  The inputs required is given |The software used for the sysytem is tested and if it is passed in the test it is used for the further process | Fail | Scenario Based 
+
+# High Level Test Plan
+
+| Test ID | Feature | Description | Result | Type of Test
+|--|--|--|--|--|
+| HT 1 |  The inputs of the components is given to the system| System Testing | Fail | Boundary Based 
+| HT 2 | Sample Input is given | Components Testing   | Pass | Requirement Based 
+| HT 3 |The inputs required is given  | Software Testing | Fail | Scenario Based 
+
