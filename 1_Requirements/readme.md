@@ -42,6 +42,8 @@ I have developed this in my mac, IDE: Visual Studio Code of Microsoft.
 * This is build using programming language, C.
 * This can take Input from user and output the solution.
 
+# Sample Sudoku game:
+<img width="898" alt="Screenshot 2022-03-26 at 2 03 01 PM" src="https://user-images.githubusercontent.com/43140053/160231585-c5bc98a8-fb99-4a89-8666-004e25d3bccc.png">
 
 <br>
 <br>
