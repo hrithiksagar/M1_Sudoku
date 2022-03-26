@@ -1,14 +1,12 @@
-
-#include <stdio.h>
-#include <stdlib.h>
-#include <sudoku.h>
+#include<stdio.h>
+#include<stdlib.h>
+#include"sudoku.h"
 
 #define N 9
 
 int main()
 {
     // 0 means unassigned cells
-
     printf("\nBelow is a sample 9X9 Sudoku Problem \n\n");
     int grid[N][N] = { { 3, 0, 6, 5, 0, 8, 4, 0, 0 },
                        { 5, 2, 0, 0, 0, 0, 0, 0, 0 },
@@ -48,7 +46,6 @@ scanf("%d",&a);
 if(a==1)
 {
    printf("\n\n -->ENTER BELOW YOUR OWN SUDOKU VALUES.<--\n NOTE: 1. Must be a 9X9 Sudoku.\n\t2. For empty spaces enter '0'.\n\t 3.The Gap while entering represents that value is being added to a new row.\n\n");
-
             for(int i=0;i<9;i++){
                 for(int j=0;j<9;j++){
                   printf("  ");
@@ -57,7 +54,6 @@ if(a==1)
                 }
             printf("\n");
             }
-
             printf("\nBelow is the Solution\n\n");
             if (solveSudoku(newArr, 0, 0)==1)
             {
@@ -67,15 +63,11 @@ if(a==1)
             {
               printf("No solution exists\n");
             }
-}            
-            
+}                    
    else if(a==2)
    {
        exit(1);           
    }
-
 printf("\t\tTHANK YOU");
-
 return 0;
-
 }
