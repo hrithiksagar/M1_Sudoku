@@ -24,10 +24,13 @@
 # W and H Questions:
 <h2> Who: </h2> 
 * This is a very basic game, who ever knows numbers and has little idea of how to play it can play this game.
-
+<br>
+<img width="409" alt="Screenshot 2022-03-26 at 1 38 57 PM" src="https://user-images.githubusercontent.com/43140053/160231424-c89c4c8f-24bd-4f41-a060-fad1c177064a.png">
+This is how it looks like
 <br>
 <h2> What:</h2>
 * Sudoku is a puzzle game that requires players (Humans) to think strategically and solve problems creatively.
+
 <br>
 <h2> When: </h2>
 * This can be played anytime using laptop, linux, mac in terminal. 
