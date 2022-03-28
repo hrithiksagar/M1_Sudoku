@@ -1,13 +1,5 @@
-/**
- * @file safeSudoku.c
- * @author Roopesh Verma
- * @brief Function to check whether the value input is valid in sudoku
- * @version 0.1
- * @date 2021-04-11
- * 
- * @copyright Copyright (c) 2021
- * 
- */
+//Function to check whether the value input is valid in sudoku
+
 
 #include<stdio.h>
 #include "sudoku.h"
