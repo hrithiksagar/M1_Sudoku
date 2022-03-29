@@ -9,7 +9,7 @@ unity/unity.c
 
 SRC = src/printings.c\
 src/secures.c\
-src/solv.c
+src/solvings.c
 
 INC = -Iinc\
 -Iunity
