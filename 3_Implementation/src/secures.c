@@ -4,7 +4,7 @@
 #include<stdio.h>
 #include "sudoku.h"
 
-int safeSudoku(int arr[9][9],int row,int col,int num)
+int secures(int arr[9][9],int row,int col,int num)
 {
      
     // Check if we find the same num

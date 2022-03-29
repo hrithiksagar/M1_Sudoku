@@ -10,7 +10,7 @@ to assign values to all unassigned locations in
 such a way to meet the requirements for
 Sudoku solution (non-duplication across rows,
 columns, and boxes) */
-int solveSudoku(int arr[9][9],int row, int col)
+int solvings(int arr[9][9],int row, int col)
 {
     if (row == 8 && col == 9)
     {
@@ -23,14 +23,14 @@ int solveSudoku(int arr[9][9],int row, int col)
     }
     if (arr[row][col] > 0)
     {
-        return solveSudoku(arr, row, col + 1);
+        return solvings(arr, row, col + 1);
     }
     for (int num = 1; num <= 9; num++) 
     {         
-        if (safeSudoku(arr, row, col, num)==1)
+        if (secures(arr, row, col, num)==1)
         {
             arr[row][col] = num;
-            if (solveSudoku(arr, row, col + 1)==1)
+            if (solvings(arr, row, col + 1)==1)
             {
                 return 1;
             }
