@@ -49,3 +49,5 @@ The repository is divided into 7 folders:-
 * Codiga: ![Codiga Badge](https://api.codiga.io/project/32088/score/svg)
 
 * [![Cppcheck](https://github.com/hrithiksagar/M1_Sudoku/actions/workflows/analysis.yml/badge.svg)](https://github.com/hrithiksagar/M1_Sudoku/actions/workflows/analysis.yml)
+* [![Codacy Security Scan](https://github.com/hrithiksagar/M1_Sudoku/actions/workflows/codacy.yml/badge.svg)](https://github.com/hrithiksagar/M1_Sudoku/actions/workflows/codacy.yml)
+* [![Valgrind](https://github.com/hrithiksagar/M1_Sudoku/actions/workflows/valgrind.yml/badge.svg)](https://github.com/hrithiksagar/M1_Sudoku/actions/workflows/valgrind.yml) 
