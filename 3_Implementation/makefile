@@ -7,9 +7,9 @@ TEST_SRC = test_sudoku.c\
 unity/unity.c
 
 
-SRC = src/printSudoku.c\
-src/safeSudoku.c\
-src/solveSudoku.c
+SRC = src/printings.c\
+src/secures.c\
+src/solvings.c
 
 INC = -Iinc\
 -Iunity
