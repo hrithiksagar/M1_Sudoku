@@ -2,6 +2,11 @@
 #include<stdlib.h>
 #include"sudoku.h"
 #define N 9
+/**
+ * @brief this is the main code which accumilates al
+ * 
+ * @return int 
+ */
 
 int main()
 {
@@ -27,9 +32,9 @@ int main()
     }
     
     printf("\nBelow is the Solution\n\n");
-    if (solveSudoku(grid, 0, 0)==1)
+    if (solvings(grid, 0, 0)==1)
     {
-        printSudoku(grid);
+        printings(grid);
     }
     else
     {
@@ -61,9 +66,9 @@ if(a==1)
 
             printf("\nBelow is the Solution\n\n");
 
-            if (solveSudoku(newArr[N][N], 0, 0)==1)
+            if (solvings(newArr[N][N], 0, 0)==1)
             {
-              printSudoku(newArr[N][N]);
+              printings(newArr[N][N]);
             }
             else
             {
@@ -76,6 +81,6 @@ else if(a==2)
     exit(1);           
 }
 
-printf("\t\t THANK YOU");
+printf("\t\t Thankss!!");
 return 0;
 }

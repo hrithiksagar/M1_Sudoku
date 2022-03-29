@@ -43,23 +43,23 @@ void tearDown()
 {
 }
 
-void TestSafe(void)
+void TestingSafe(void)
 {
-    TEST_ASSERT_EQUAL(0, safeSudoku(sudoku,0,0,1));
-    TEST_ASSERT_EQUAL(1, safeSudoku(sudoku,0,4,6));
+    TEST_ASSERT_EQUAL(0, secures(sudoku,0,0,1));
+    TEST_ASSERT_EQUAL(1, secures(sudoku,0,4,6));
 }
 
-void TestSolve(void)
+void TestingSolve(void)
 {
-    TEST_ASSERT_EQUAL(0, solveSudoku(sudoku,0,0));
-    TEST_ASSERT_EQUAL(1, solveSudoku(WrongSudoku,0,0));
-    TEST_ASSERT_EQUAL(1, solveSudoku(CorrectSudoku,0,0));
+    TEST_ASSERT_EQUAL(0, solvings(sudoku,0,0));
+    TEST_ASSERT_EQUAL(1, solvings(WrongSudoku,0,0));
+    TEST_ASSERT_EQUAL(1, solvings(CorrectSudoku,0,0));
 }
 
-void TestPrint(void)
+void TestingPrint(void)
 {
    
-    TEST_ASSERT_EQUAL(0, printSudoku(sudoku));
+    TEST_ASSERT_EQUAL(0, printings(sudoku));
 }
 
 int main(void)
@@ -68,9 +68,9 @@ int main(void)
     UNITY_BEGIN();
 
     /* Run Test functions */
-    RUN_TEST(TestSafe);
-    RUN_TEST(TestSolve);
-    RUN_TEST(TestPrint);
+    RUN_TEST(TestingSafe);
+    RUN_TEST(TestingSolve);
+    RUN_TEST(TestingPrint);
 
     /* Close the Unity Test Framework */
     return UNITY_END();
