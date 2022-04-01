@@ -6,3 +6,12 @@
 * [Final Working output](https://github.com/hrithiksagar/M1_Sudoku/blob/main/6_ImagesAndVideos/Final%20working%20output.png)
 
 ![Final Working output](https://github.com/hrithiksagar/M1_Sudoku/blob/main/6_ImagesAndVideos/Final%20working%20output.png)
+
+
+* [Output of the project](https://github.com/hrithiksagar/M1_Sudoku/blob/main/6_ImagesAndVideos/Output%20of%20the%20project.png)
+
+![output](https://github.com/hrithiksagar/M1_Sudoku/blob/main/6_ImagesAndVideos/Output%20of%20the%20project.png)
+
+* [output 2](https://github.com/hrithiksagar/M1_Sudoku/blob/main/6_ImagesAndVideos/Output%202.png)
+
+![Final Working output](https://github.com/hrithiksagar/M1_Sudoku/blob/main/6_ImagesAndVideos/Output%202.png)
