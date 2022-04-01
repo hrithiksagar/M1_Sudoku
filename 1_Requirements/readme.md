@@ -53,8 +53,10 @@ I have developed this in my mac, IDE: Visual Studio Code of Microsoft.
 ## High-Level Requirements
 |ID| Description | Status
 |--|--|--|
-| HL1 | Contain sample and take User Sudoku | Implemented
+| HL1 | Contain sample Sudoku program | Implemented
 | HL2 | Print the solution if exist | Implemented
+| HL3 | Asks the user if they wants to solve new sudoku | Implemented
+| HL4 | Solves it and prints the solution if exists | Implemented
 
 ## Low-Level Requirements
 |ID| Description | Status
