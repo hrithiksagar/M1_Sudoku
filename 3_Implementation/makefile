@@ -1,5 +1,10 @@
+# Name of the project
 PROJ_NAME = Sudoku
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
+
+
+# Doc File:
+DOC = documentation
 
 BUILD_DIR = Build
 
@@ -12,7 +17,7 @@ src/secures.c\
 src/solvings.c
 
 INC = -Iinc\
--Iunity
+-Iunity\
 
 
 
