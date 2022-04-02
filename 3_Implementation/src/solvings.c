@@ -10,6 +10,14 @@ to assign values to all unassigned locations in
 such a way to meet the requirements for
 Sudoku solution (non-duplication across rows,
 columns, and boxes) */
+/**
+ * @brief Function for solving sudoku
+ * @author Hrithik Sagar (hrithiksagar36@gmail.com)
+ * @param arr 
+ * @param row 
+ * @param col 
+ * @return int 
+ */
 int solvings(int arr[9][9],int row, int col)
 {
     if (row == 8 && col == 9)

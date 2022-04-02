@@ -3,8 +3,8 @@
 #include"sudoku.h"
 #define N 9
 /**
- * @brief this is the main code which accumilates al
- * 
+ * @brief this is the main code which accumilates all of the different files
+ * @author Hrithik Sagar (hrithiksagar36@gmail.com) 
  * @return int 
  */
 
@@ -21,7 +21,6 @@ int main()
                         {0,0,9,3,0,0,0,7,4},
                         {0,4,0,0,5,0,0,3,6},
                         {7,0,3,0,1,8,0,0,0}  };
-
     for(int i=0;i<N;i++)
     {
         for(int j=0;j<N;j++)
@@ -40,9 +39,6 @@ int main()
     {
         printf("No solution exists\n");
     }
-
-
-
 
 
 

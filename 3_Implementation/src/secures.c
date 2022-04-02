@@ -3,7 +3,15 @@
 
 #include<stdio.h>
 #include "sudoku.h"
-
+/**
+ * @brief 
+ * @author Hrithik Sagar (hrithiksagar36@gmail.com)
+ * @param arr 
+ * @param row 
+ * @param col 
+ * @param num 
+ * @return int 
+ */
 int secures(int arr[9][9],int row,int col,int num)
 {
      
